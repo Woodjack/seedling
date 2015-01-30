@@ -12,7 +12,8 @@ var gpio = require("pi-gpio");
 var usonic = require('r-pi-usonic');
 var sensor = usonic.sensor(24, 23, 450);
 
-gpio.open(15, "output", function(err) {   console.log('pin 16 ready')}
+gpio.open(15, "output", function(err) {
+  console.log('pin 16 ready')});
 
 //client.emit('checkIn', 'seedling #1');
 
