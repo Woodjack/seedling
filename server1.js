@@ -30,4 +30,4 @@ setInterval(function(){
       // Close pin 16
     });
   }
-}, 5)
+}, 200)
